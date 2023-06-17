@@ -48,6 +48,7 @@ jobs:
               with:
                   # 部署到 gh-pages 分支
                   target_branch: main
+                  repo: StockSheet
                   # 部署目錄為 VuePress 的默認輸出目錄
                   build_dir: src/.vuepress/dist
               env:
