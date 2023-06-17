@@ -9,6 +9,10 @@ on:
     # 手動觸發部署
     workflow_dispatch:
 
+# 增加寫入權限
+permissions:
+    contents: write
+
 jobs:
     deploy-gh-pages:
         runs-on: ubuntu-latest
