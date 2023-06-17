@@ -1,11 +1,13 @@
 
-name: 部署文檔
+name: 部署StockSheetWeb
 
 on:
     push:
         branches:
             # 確保這是你正在使用的分支名稱
             - main
+    # 手動觸發部署
+    workflow_dispatch:
 
 jobs:
     deploy-gh-pages:
@@ -14,6 +16,7 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v3
               with:
+                  # “最近更新時間” 等 git 日誌相關資訊，需要拉取全部提交記錄
                   fetch-depth: 0
                   # 如果你文檔需要 Git 子模組，取消註釋下一行
                   # submodules: true
@@ -22,6 +25,7 @@ jobs:
               uses: pnpm/action-setup@v2
               with:
                   version: 8.6.2
+                  # 使用 pnpm 安裝依賴
                   run_install: true
 
 
@@ -29,19 +33,23 @@ jobs:
               uses: actions/setup-node@v3
               with:
                   node-version: 18
+                  # 快取 pnpm 依賴
                   cache: pnpm
 
 
-            - name: 構建文檔
-              env:
-                  NODE_OPTIONS: --max_old_space_size=8192
-              run: |-
-                  pnpm run docs:build
-                  > src/.vuepress/dist/.nojekyll
+            # 運行建構指令碼
+            - name: Build VuePress site
+              run: pnpm docs:build
 
-            - name: 部署文檔
-              uses: JamesIves/github-pages-deploy-action@v4
+            # 查看 workflow 的檔案來獲取更多資訊
+            # @see https://github.com/crazy-max/ghaction-github-pages
+            - name: Deploy to GitHub Pages
+              uses: crazy-max/ghaction-github-pages@v2
               with:
-                  # 這是文檔部署到的分支名稱
-                  branch: main
-                  folder: src/.vuepress/dist
+                  # 部署到 gh-pages 分支
+                  target_branch: main
+                  # 部署目錄為 VuePress 的默認輸出目錄
+                  build_dir: src/.vuepress/dist
+              env:
+                  # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
