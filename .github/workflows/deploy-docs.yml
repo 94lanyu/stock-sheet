@@ -47,24 +47,24 @@ jobs:
 
 #            # 查看 workflow 的檔案來獲取更多資訊
 #            # @see https://github.com/crazy-max/ghaction-github-pages
-#            - name: Deploy to GitHub Pages
-#              uses: crazy-max/ghaction-github-pages@v2
-#              with:
-#                  # 部署到 gh-pages 分支
-#                  target_branch: main
-#                  repo: lazypisces/StockSheet
-#                  # 部署目錄為 VuePress 的默認輸出目錄
-#                  build_dir: src/.vuepress/dist
-#              env:
-#                  # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
-#                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            - name: Deploy to GitHub Pages
+              uses: crazy-max/ghaction-github-pages@v2
+              with:
+                  # 部署到 gh-pages 分支
+                  target_branch: main
+                  repo: lazypisces/StockSheet
+                  # 部署目錄為 VuePress 的默認輸出目錄
+                  build_dir: src/.vuepress/dist
+              env:
+                  # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
+                  GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
             # 2、部署到 GitHub Pages
-            - name: Deploy to GitHub Pages
-              uses: JamesIves/github-pages-deploy-action@releases/v3
-              with:
-                  ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-                  REPOSITORY_NAME: StockSheet/lazypisces.github.io
-                  BRANCH: master
-                  FOLDER: src/.vuepress/dist
-                  #注意這裡的 public 是倉庫根目錄下的 public，也就是 npm run build 生成靜態資源的路徑，比如有的人是 `docs/.vuepress/dist`
+#            - name: Deploy to GitHub Pages
+#              uses: JamesIves/github-pages-deploy-action@releases/v3
+#              with:
+#                  ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+#                  REPOSITORY_NAME: StockSheet/lazypisces.github.io
+#                  BRANCH: master
+#                  FOLDER: src/.vuepress/dist
+#                  #注意這裡的 public 是倉庫根目錄下的 public，也就是 npm run build 生成靜態資源的路徑，比如有的人是 `docs/.vuepress/dist`
