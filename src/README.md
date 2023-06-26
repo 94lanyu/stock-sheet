@@ -9,6 +9,7 @@ bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
     background-attachment: fixed
 heroText: 全自動股票管理表
+heroFullScreen: true
 tagline: 只需做好交易紀錄，其餘的都幫你搞定～✨
 actions:
     -   text: 免費試用 🧭
@@ -69,7 +70,7 @@ highlights:
                 details: 可設定儀表板的資料範圍區間，方便查詢過去的績效損益
 
     -   header: 分頁
-        description: 強大的功能與多個分頁能滿足大多數的使用者
+        description: 強大的功能與多個分頁能滿足多種需求
         image: /assets/image/layout.svg
         bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
         bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
@@ -86,7 +87,7 @@ highlights:
 
             -   title: 現金股利
                 icon: money-bill
-                details: 專為現金股利設計的頁面，包含紀錄與報酬率的計算，也可設定存股目標
+                details: 包含現金股利的紀錄與報酬率的計算，設有存股計畫的區塊
                 link: https://theme-hope.vuejs.press/zh/guide/interface/theme-color.html
 
             -   title: 觀察
@@ -106,22 +107,22 @@ highlights:
         features:
             -   title: 更全面的儀表板
                 icon: desktop
-                details: 配合 Waline 来开启阅读量统计与评论支持
+                details: 新增許多數字面板與比較值，使用上更加直覺
                 link: https://theme-hope.vuejs.press/zh/guide/feature/comment.html
 
             -   title: 圖表的下拉選單
                 icon: caret-down
-                details: 为你的文章添加作者、写作日期、预计阅读时间、字数统计等信息
+                details: 圖表多了靈活切換數據的選項，可依自己需求選擇顯示的項目 / 順序 / 數量
                 link: https://theme-hope.vuejs.press/zh/guide/feature/page-info.html
 
-            -   title: 資金比例
+            -   title: 資金 / 現金比例
                 icon: money-bill-trend-up
                 details: 投入資金與現金的比例，也將現金新增至自動記錄的走勢圖，方便觀察
                 link: https://theme-hope.vuejs.press/zh/guide/feature/encrypt.html
 
             -   title: 新的取價結構
                 icon: search
-                details: 支持 docsearch 和基于客户端的搜索
+                details: 新設計的架構可將網路取價的失敗機率降至最低
                 link: https://theme-hope.vuejs.press/zh/guide/feature/search.html
 
             -   title: 更精準的計算
@@ -129,69 +130,62 @@ highlights:
                 details: 新增 1 元價差的設定
                 link: https://theme-hope.vuejs.press/zh/guide/feature/copy-code.html
 
-            -   title: 推薦機制
+            -   title: 推薦機制 ( 額外 )
                 icon: users
-                details: 像相册一样允许你浏览、缩放并分享你的页面图片
+                details: 可藉由推薦親友使用，獲得推薦獎勵的訂閱月數，延長使用期限
                 link: https://theme-hope.vuejs.press/zh/guide/feature/photo-swipe.html
 
-    -   header: 其他版本
-        description: 通过主题创建个人博客
+    -   header: 國際版
         image: /assets/image/blog.svg
         bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
         bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
         highlights:
-            -   title: 博客功能
-                icon: blog
-                details: 通过文章的日期、标签和分类展示文章
+            -   title: 跨市場總覽
+                icon: globe
+                details: 同步多個國際版，將其整合在一起，方便整體瀏覽
                 link: https://theme-hope.vuejs.press/zh/guide/blog/intro.html
 
-            -   title: 博客主页
-                icon: home
-                details: 全新播客主页
+            -   title: 美股付費版
+                icon: earth-america
+                details: 新增美金匯率，以美金為計算基準，由美股網站取得股票價位
                 link: https://theme-hope.vuejs.press/zh/guide/blog/home.html
 
-            -   title: 博主信息
-                icon: home
-                details: 自定义名称、头像、座右铭和社交媒体链接
+            -   title: 歐股付費版
+                icon: earth-europe
+                details: 新增歐元匯率，以歐元為計算基準，由歐股網站取得股票價位
                 link: https://theme-hope.vuejs.press/zh/guide/blog/blogger.html
 
-            -   title: 时间线
-                icon: home
-                details: 在时间线中浏览和通读博文
+            -   title: 港股付費版
+                icon: earth-asia
+                details: 新增港幣匯率，以港幣計算基準，由港股網站取得股票價位
                 link: https://theme-hope.vuejs.press/zh/guide/blog/timeline.html
 
     -   header: 客製化
-        description: 增强站点与用户体验的高级功能
+        description: 依照客戶需求，提供建議並為其設計的個人版本
         image: /assets/image/advanced.svg
         bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
         bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
         highlights:
-            -   title: SEO 增强
-                icon: dumbbell
-                details: 将最终生成的网页针对搜索引擎进行优化。
+            -   title: 客製定期定額
+                icon: clock
+                details: 為定期定額做一個分類，有專屬圖表和表格可以看累積獲利(含股利)
                 link: https://theme-hope.vuejs.press/zh/guide/advanced/seo.html
 
-            -   title: Sitemap
-                icon: sitemap
-                details: 自动为你的网站生成 Sitemap
+            -   title: 客製融資版
+                icon: money-bill-transfer
+                details: 新增融資分頁，專門計算融資券的投資績效
                 link: https://theme-hope.vuejs.press/zh/guide/advanced/sitemap.html
 
-            -   title: Feed 支持
-                icon: rss
-                details: 生成你的 Feed，并通知你的用户订阅它
+            -   title: 客製權證版
+                icon: money-check-dollar
+                details: 新增權證代號，可手動輸入權證價格並自動帶入計算
                 link: https://theme-hope.vuejs.press/zh/guide/advanced/feed.html
 
-            -   title: PWA 支持
-                icon: mobile-screen
-                details: 让你的网站更像一个 APP
+            -   title: 美股客製版
+                icon: earth-america
+                details: 新增換匯的功能頁面，紀錄美金的交易歷程
                 link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
 
 copyright: false
-footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-present Mr.Hope
+#footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-present Mr.Hope
 ---
-
-这是项目主页的案例。你可以在这里放置你的主体内容。
-
-想要使用此布局，你需要在页面 front matter 中设置 `home: true`。
-
-配置项的相关说明详见 [项目主页配置](https://theme-hope.vuejs.press/zh/guide/layout/home/)。

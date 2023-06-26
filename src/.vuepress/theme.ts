@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "/logo.svg",
+  // logo: "/logo.svg",
 
   // repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -26,7 +26,7 @@ export default hopeTheme({
 
   // footer: "默認頁尾",
 
-  displayFooter: true,
+  // displayFooter: true,
 
   encrypt: {
     config: {
