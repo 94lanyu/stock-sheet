@@ -3,14 +3,12 @@ title: 指南
 icon: lightbulb
 ---
 
-## 功能亮点
+## 簡介
 
-### Bar
+- [功能](feature/)
 
-- [baz](bar/baz.md)
-- ...
+## 啟用
 
-### Foo
+- [分頁](sheets/)
 
-- [ray](foo/ray.md)
-- ...
+## 開始使用
