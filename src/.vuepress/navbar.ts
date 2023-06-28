@@ -28,7 +28,7 @@ export default navbar([
                 ],
             },
             {
-                text: "分頁",
+                text: "頁面",
                 prefix: "sheets/",
                 children: [
                     "",

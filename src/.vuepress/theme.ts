@@ -72,6 +72,17 @@ export default hopeTheme({
             presentation: ["highlight", "math", "search", "notes", "zoom"],
             stylize: [
                 {
+                    matcher: "台股訂閱版",
+                    replacer: ({ tag }) => {
+                        if (tag === "em")
+                            return {
+                                tag: "Badge",
+                                attrs: { text: "台股訂閱版" },
+                                content: "",
+                            };
+                    },
+                },
+                {
                     matcher: "Recommended",
                     replacer: ({ tag }) => {
                         if (tag === "em")

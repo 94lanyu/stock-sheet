@@ -13,13 +13,15 @@ heroFullScreen: true
 tagline: 只需做好交易紀錄，其餘的都幫你搞定～✨
 actions:
     -   text: 免費試用 🧭
-        link: /StockPortfolioDocs/QuickStart/介紹.md#各版本預覽連結
+        link: https://forms.gle/RsfJdnReB1pzahQM6
         type: primary
     -   text: 使用指南 💡
         link: /guide/
         type: secondary
     -   text: 試算表預覽 🪀
-        link: /StockPortfolioDocs/QuickStart/第一次使用.md
+        link: https://docs.google.com/spreadsheets/d/1oZ4oUaYMRnmP2WEBYk84qAB6HXxxgZ4Qripa3J69Aa0/edit?usp=sharing
+    -   text: 訂閱 🛍️
+        link: https://stockportfolio.cashier.ecpay.com.tw/product/000000000402451
 
 
 highlights:
@@ -48,36 +50,43 @@ highlights:
                 icon: cloud-arrow-down
                 details: 開啟試算表後會自動更新股票最新成交價(非即時)，並以新的成交價做各種後續計算
                 link: guide/feature/自動更新股票成交價.md
+                
             -   title: 多種視覺化圖表
                 icon: chart-column
                 details: 輕鬆享受多種圖表化的數據，持股比例、賺賠一目了然，且無須動手，當股票價格有變動時圖表會自動更新
                 link: guide/feature/多種視覺化圖表.md
+                
             -   title: 自動化計算
                 icon: calculator
                 details: 自動計算多項數據，交易成本(交易稅、手續費)、各項報酬率(已實現損益、未實現損益)等等
                 link: guide/feature/自動化計算.md
+                
             -   title: 自動記錄市值變化
                 icon: chart-line
                 details: 每周五盤後，會將當下的成本、市值、未實現損益等記錄下來。當時間拉長，可以觀察到自己投資的曲線變化！
                 link: guide/feature/自動記錄市值變化.md
+                
             -   title: 輕鬆管理多家券商
                 icon: landmark
                 details: 靈活的設計，可以同時管理不同的券商並依照券商不同的折讓手續費各別設定，還能看各券商.分類的占比圖
                 link: guide/feature/輕鬆管理多家券商.md
+                
             -   title: 一鍵更新
                 icon: arrow-pointer
                 details: 操作簡單，每次紀錄完新的交易資料後，只需按一次「更新交易紀錄」按鈕，便可更新各項數據及圖表
                 link: guide/feature/一鍵更新.md
+                
             -   title: 多種占比圖
                 icon: chart-pie
                 details: 持股 / 產業 / 現金 / 券商 or 分類
                 link: guide/feature/多種占比圖.md
+                
             -   title: 切換資料範圍的區間
                 icon: timeline
                 details: 可設定儀表板的資料範圍區間，方便查詢過去的績效損益
                 link: guide/feature/切換資料範圍的區間.md
 
-    -   header: 分頁
+    -   header: 頁面
         description: 強大的功能與多個分頁能滿足多種需求
         image: /assets/image/layout.svg
         bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
