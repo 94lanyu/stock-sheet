@@ -61,10 +61,10 @@ highlights:
                 details: 自動計算多項數據，交易成本(交易稅、手續費)、各項報酬率(已實現損益、未實現損益)等等
                 link: guide/feature/自動化計算.md
                 
-            -   title: 自動記錄市值變化
+            -   title: 自動記錄投資變化
                 icon: chart-line
                 details: 每周五盤後，會將當下的成本、市值、未實現損益等記錄下來。當時間拉長，可以觀察到自己投資的曲線變化！
-                link: guide/feature/自動記錄市值變化.md
+                link: guide/feature/自動記錄投資變化.md
                 
             -   title: 輕鬆管理多家券商
                 icon: landmark
