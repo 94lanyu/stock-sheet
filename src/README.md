@@ -189,7 +189,7 @@ highlights:
                 link: https://theme-hope.vuejs.press/zh/guide/advanced/seo.html
 
             -   title: 客製融資版
-                icon: money-bill-transfer
+                icon: hand-holding-dollar
                 details: 新增融資分頁，專門計算融資券的投資績效
                 link: https://theme-hope.vuejs.press/zh/guide/advanced/sitemap.html
 
