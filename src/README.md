@@ -76,10 +76,10 @@ highlights:
                 details: 操作簡單，每次紀錄完新的交易資料後，只需按一次「更新交易紀錄」按鈕，便可更新各項數據及圖表
                 link: guide/feature/一鍵更新.md
                 
-            -   title: 多種占比圖
+            -   title: 多種百分比圖
                 icon: chart-pie
                 details: 持股 / 產業 / 現金 / 券商 or 分類
-                link: guide/feature/多種占比圖.md
+                link: guide/feature/多種百分比圖.md
                 
             -   title: 切換資料範圍的區間
                 icon: timeline
