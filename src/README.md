@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 自動化股票記帳
-description: 讓你「懶到極致」的股票管理表 - 打開試算表即自動更新股價和各種損益圖表，享受多種自動化功能，輕鬆管理股票。
+description: 【全自動股票管理表】只需做好交易紀錄，其餘的都幫你搞定～✨「懶到極致」的股票管理表，打開試算表即自動更新股價和各種損益圖表，享受多種自動化功能，輕鬆管理股票。
 #heroImage: /logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
@@ -115,7 +115,7 @@ highlights:
             -   title: 更多
                 icon: ellipsis
                 details: 持股與歷史、統計、券商與分類、股票代號、自動記錄
-                link: guide/sheets/持股與歷史.md
+                link: guide/sheets/
 
     -   header: 新功能
         image: /assets/image/features.svg
