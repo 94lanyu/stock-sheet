@@ -34,13 +34,13 @@ export default sidebar({
         //         },
         //     ],
         // },
-        {
-            text: "案例",
-            icon: "laptop-code",
-            prefix: "demo/",
-            link: "demo/",
-            children: "structure",
-        },
-        "slides",
+        // {
+        //     text: "案例",
+        //     icon: "laptop-code",
+        //     prefix: "demo/",
+        //     link: "demo/",
+        //     children: "structure",
+        // },
+        // "slides", // 幻燈片
     ],
 });
