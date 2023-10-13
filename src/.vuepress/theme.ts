@@ -39,6 +39,17 @@ export default hopeTheme({
     //   editLink: "在 GitHub 上编辑此页",
     // },
 
+    blog: {
+        name: '懶魚',
+        // avatar: "https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gMzzgPOXmcAeSl0IxexPI8UzEC0-kbsLB6vG2JYRKNxaCgndcrTcSoL6AD0J3wQSNSdacgRfoWnf0seZg5ZoJYONt8nzA=w1920-h972",
+        avatar: "https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaBisNabeLSz3ET6NOdCldU88o3sTnEuT5WgvQxBPpwcsK9k0fBHzlHEGJsPp1nKTd1eV7DaLTGFpWSZ97xMqZrzrgxFkA=w1920-h1001",
+        roundAvatar: true, // 頭像裁剪成圓形
+        description: '懶惰是我前進的動力', // 介紹自己的一句話 or 座右銘
+        intro: '/Contact', // 個人介紹頁面的 path
+        medias: {Gmail:'mailto:pickupcamry@gmail.com',Facebook:'https://www.facebook.com/kevin.lazy.fish'},
+        timeline: '由此上而下',
+    },
+
     plugins: {
         // You should generate and use your own comment service
         // comment: {
@@ -48,10 +59,16 @@ export default hopeTheme({
         //   category: "Announcements",
         //   categoryId: "DIC_kwDOG_Pt2M4COD69",
         // },
+        blog:  { // 文章列表
+            // autoExcerpt: true, // 自動摘要 > 取自 description >> excerptLength (blog.autoExcerpt 移動至 plugins.blog.excerptLength)
+            filter: ({ filePathRelative }) => // 過濾只顯示在某個路徑下的文章
+                filePathRelative ? filePathRelative.startsWith("FQA/") : false,
+            article: 'FQA', // 修改預設路徑
+        },
 
         // All features are enabled for demo, only preserve features you need here
         mdEnhance: {
-            align: true,
+            align: true, // 自定義對齊-可置中(center)或置右對齊(right),beta.66 不能使用
             attrs: true,
             chart: true,
             codetabs: true,
@@ -62,9 +79,9 @@ export default hopeTheme({
             gfm: true,
             imgLazyload: true,
             imgSize: true,
-            include: true,
+            include: true, // 引用其他文件內容,beta.66 不能使用
             katex: true,
-            mark: true,
+            mark: true, // ==黃底強調==,
             mermaid: true,
             playground: {
                 presets: ["ts", "vue"],

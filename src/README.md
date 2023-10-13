@@ -125,32 +125,32 @@ highlights:
             -   title: 更全面的儀表板
                 icon: desktop
                 details: 新增許多數字面板與比較值，使用上更加直覺
-                link: https://theme-hope.vuejs.press/zh/guide/feature/comment.html
+#                link: https://theme-hope.vuejs.press/zh/guide/feature/comment.html
 
             -   title: 圖表的下拉選單
                 icon: caret-down
                 details: 圖表多了靈活切換數據的選項，可依自己需求選擇顯示的項目 / 順序 / 數量
-                link: https://theme-hope.vuejs.press/zh/guide/feature/page-info.html
+#                link: https://theme-hope.vuejs.press/zh/guide/feature/page-info.html
 
             -   title: 資金 / 現金比例
                 icon: money-bill-trend-up
                 details: 投入資金與現金的比例，也將現金新增至自動記錄的走勢圖，方便觀察
-                link: https://theme-hope.vuejs.press/zh/guide/feature/encrypt.html
+#                link: https://theme-hope.vuejs.press/zh/guide/feature/encrypt.html
 
             -   title: 新的取價結構
                 icon: search
                 details: 新設計的架構可將網路取價的失敗機率降至最低
-                link: https://theme-hope.vuejs.press/zh/guide/feature/search.html
+#                link: https://theme-hope.vuejs.press/zh/guide/feature/search.html
 
             -   title: 更精準的計算
                 icon: dollar-sign
                 details: 新增 1 元價差的設定
-                link: https://theme-hope.vuejs.press/zh/guide/feature/copy-code.html
+#                link: https://theme-hope.vuejs.press/zh/guide/feature/copy-code.html
 
             -   title: 推薦機制 ( 額外 )
                 icon: users
                 details: 可藉由推薦親友使用，獲得推薦獎勵的訂閱月數，延長使用期限
-                link: https://theme-hope.vuejs.press/zh/guide/feature/photo-swipe.html
+#                link: https://theme-hope.vuejs.press/zh/guide/feature/photo-swipe.html
 
     -   header: 國際版
         image: /assets/image/blog.svg
@@ -160,22 +160,22 @@ highlights:
             -   title: 跨市場總覽
                 icon: globe
                 details: 同步多個國際版，將其整合在一起，方便整體瀏覽
-                link: https://theme-hope.vuejs.press/zh/guide/blog/intro.html
+                link: guide/version/客製化.md#跨市場總覽
 
-            -   title: 美股付費版
+            -   title: 美股收費版
                 icon: earth-america
                 details: 新增美金匯率，以美金為計算基準，由美股網站取得股票價位
-                link: https://theme-hope.vuejs.press/zh/guide/blog/home.html
+                link: guide/version/美股收費版.md#
 
-            -   title: 歐股付費版
+            -   title: 歐股收費版
                 icon: earth-europe
                 details: 新增歐元匯率，以歐元為計算基準，由歐股網站取得股票價位
-                link: https://theme-hope.vuejs.press/zh/guide/blog/blogger.html
+                link: guide/version/客製化.md#歐股版
 
-            -   title: 港股付費版
+            -   title: 港股收費版
                 icon: earth-asia
                 details: 新增港幣匯率，以港幣計算基準，由港股網站取得股票價位
-                link: https://theme-hope.vuejs.press/zh/guide/blog/timeline.html
+                link: guide/version/客製化.md#港股版
 
     -   header: 客製化
         description: 依照客戶需求，提供建議並為其設計的個人版本
@@ -186,22 +186,22 @@ highlights:
             -   title: 客製定期定額
                 icon: clock
                 details: 為定期定額做一個分類，有專屬圖表和表格可以看累積獲利(含股利)
-                link: https://theme-hope.vuejs.press/zh/guide/advanced/seo.html
+                link: https://docs.google.com/spreadsheets/d/18TDyDReB4vEgJgcDCWeA71RysxmdheVs2fnc7iCXxpM/edit?usp=drive_link
 
             -   title: 客製融資版
                 icon: hand-holding-dollar
                 details: 新增融資分頁，專門計算融資券的投資績效
-                link: https://theme-hope.vuejs.press/zh/guide/advanced/sitemap.html
+                link: https://docs.google.com/spreadsheets/d/1xchDAPaoqISGEw6uwcGmrZcVukjBy4EJXaxI9pk1Q34/edit?usp=drive_link
 
             -   title: 客製權證版
                 icon: money-check-dollar
                 details: 新增權證代號，可手動輸入權證價格並自動帶入計算
-                link: https://theme-hope.vuejs.press/zh/guide/advanced/feed.html
+                link: https://docs.google.com/spreadsheets/d/1uIzjgipsAJl9ZEB5jUdOiloLhx0bZAXobWcNnhS5vok/edit?usp=drive_link
 
             -   title: 美股客製版
                 icon: earth-america
                 details: 新增換匯的功能頁面，紀錄美金的交易歷程
-                link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
+                link: https://docs.google.com/spreadsheets/d/1EBKH4YmPUx2S4DkFYjbA7vO6vndHGUhzIisQV2ZuSPA/edit?usp=drive_link
 
 copyright: false
 #footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-present Mr.Hope

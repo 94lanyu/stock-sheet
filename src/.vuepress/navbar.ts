@@ -53,18 +53,24 @@ export default navbar([
         ],
     },
     {
+        text: "版本",
+        icon: "file-pen",
+        prefix: "/guide/version/",
+        children: [
+            "",
+            "台股訂閱版/",
+            "美股收費版/",
+            "客製化/",
+        ]
+    },
+    {
         text: "常見問題",
         icon: "circle-question",
-        link: "/",
+        link: "/FQA/",
     },
     {
         text: "懶魚",
         icon: "user-tie",
-        link: "/",
-    },
-    {
-        text: "贊助",
-        icon: "sack-dollar",
-        link: "/",
+        link: "/LanYu",
     },
 ]);

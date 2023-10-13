@@ -1,5 +1,5 @@
 ---
-title: 頁面
+title: 分頁
 icon: copy
 prev: ../feature/切換資料範圍的區間
 ---
