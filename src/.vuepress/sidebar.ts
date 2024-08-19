@@ -15,7 +15,7 @@ export default sidebar({
             text: "指南",
             icon: "lightbulb",
             prefix: "",
-            link: "guide/",
+            // link: "guide/",
             children: [
                 "",
                 {
