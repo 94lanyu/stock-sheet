@@ -36,7 +36,7 @@ jobs:
             - name: 設置 Node.js
               uses: actions/setup-node@v3
               with:
-                  node-version: 18
+                  node-version: 20
                   # 快取 pnpm 依賴
                   cache: pnpm
 
