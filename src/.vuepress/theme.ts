@@ -62,8 +62,8 @@ export default hopeTheme({
         blog:  { // 文章列表
             // autoExcerpt: true, // 自動摘要 > 取自 description >> excerptLength (blog.autoExcerpt 移動至 plugins.blog.excerptLength)
             filter: ({ filePathRelative }) => // 過濾只顯示在某個路徑下的文章
-                filePathRelative ? filePathRelative.startsWith("FQA/") : false,
-            article: 'FQA', // 修改預設路徑
+                filePathRelative ? filePathRelative.startsWith("fqa/") : false,
+            article: 'fqa', // 修改預設路徑
         },
 
         // All features are enabled for demo, only preserve features you need here
