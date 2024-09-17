@@ -73,7 +73,7 @@ highlights:
                 
             -   title: 一鍵更新
                 icon: arrow-pointer
-                details: 操作簡單，每次紀錄完新的交易資料後，只需按一次「更新交易紀錄」按鈕，便可更新各項數據及圖表
+                details: 操作簡單，每次紀錄完新的交易資料後，只需按一次「更新儀表板」按鈕，便可更新各項數據及圖表
                 link: guide/feature/一鍵更新.md
                 
             -   title: 多種百分比圖
