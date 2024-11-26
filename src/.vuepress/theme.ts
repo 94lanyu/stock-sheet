@@ -45,7 +45,7 @@ export default hopeTheme({
         roundAvatar: true, // 頭像裁剪成圓形
         description: '懶惰是我前進的動力', // 介紹自己的一句話 or 座右銘
         intro: '/Contact', // 個人介紹頁面的 path
-        medias: {Gmail:'mailto:pickupcamry@gmail.com',Facebook:'https://www.facebook.com/kevin.lazy.fish'},
+        medias: {Gmail:'mailto:94lanyu@gmail.com',Facebook:'https://www.facebook.com/kevin.lazy.fish'},
         timeline: '由此上而下',
     },
 
