@@ -65,6 +65,27 @@ export default hopeTheme({
             article: 'fqa', // 修改預設路徑
         },
 
+        seo: {
+            customHead: head => {
+                head.push(
+                    [
+                        "script",
+                        {async: true, src: "https://www.googletagmanager.com/gtag/js?id=G-RY2H2KJXY8"},
+                    ],
+                    [
+                        "script",
+                        {},
+                        `
+                          window.dataLayer = window.dataLayer || [];
+                          function gtag(){dataLayer.push(arguments);}
+                          gtag('js', new Date());
+                          gtag('config', 'G-RY2H2KJXY8');
+                        `,
+                    ]
+                );
+            }
+        },
+
         // All features are enabled for demo, only preserve features you need here
         mdEnhance: {
             align: true, // 自定義對齊-可置中(center)或置右對齊(right),beta.66 不能使用
