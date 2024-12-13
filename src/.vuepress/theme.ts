@@ -1,4 +1,4 @@
-import { hopeTheme } from "vuepress-theme-hope";
+import {hopeTheme} from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
@@ -45,7 +45,7 @@ export default hopeTheme({
         roundAvatar: true, // 頭像裁剪成圓形
         description: '懶惰是我前進的動力', // 介紹自己的一句話 or 座右銘
         intro: '/Contact', // 個人介紹頁面的 path
-        medias: {Gmail:'mailto:94lanyu@gmail.com',Facebook:'https://www.facebook.com/kevin.lazy.fish'},
+        medias: {Gmail: 'mailto:94lanyu@gmail.com', Facebook: 'https://www.facebook.com/kevin.lazy.fish'},
         timeline: '由此上而下',
     },
 
@@ -58,9 +58,9 @@ export default hopeTheme({
         //   category: "Announcements",
         //   categoryId: "DIC_kwDOG_Pt2M4COD69",
         // },
-        blog:  { // 文章列表
+        blog: { // 文章列表
             // autoExcerpt: true, // 自動摘要 > 取自 description >> excerptLength (blog.autoExcerpt 移動至 plugins.blog.excerptLength)
-            filter: ({ filePathRelative }) => // 過濾只顯示在某個路徑下的文章
+            filter: ({filePathRelative}) => // 過濾只顯示在某個路徑下的文章
                 filePathRelative ? filePathRelative.startsWith("fqa/") : false,
             article: 'fqa', // 修改預設路徑
         },
@@ -84,6 +84,12 @@ export default hopeTheme({
                     ]
                 );
             }
+        },
+
+        sitemap: {
+            excludeUrls: [
+                '/demo'
+            ],
         },
 
         // All features are enabled for demo, only preserve features you need here
@@ -110,22 +116,22 @@ export default hopeTheme({
             stylize: [
                 {
                     matcher: "台股訂閱版",
-                    replacer: ({ tag }) => {
+                    replacer: ({tag}) => {
                         if (tag === "em")
                             return {
                                 tag: "Badge",
-                                attrs: { text: "台股訂閱版" },
+                                attrs: {text: "台股訂閱版"},
                                 content: "",
                             };
                     },
                 },
                 {
                     matcher: "Recommended",
-                    replacer: ({ tag }) => {
+                    replacer: ({tag}) => {
                         if (tag === "em")
                             return {
                                 tag: "Badge",
-                                attrs: { type: "tip" },
+                                attrs: {type: "tip"},
                                 content: "Recommended",
                             };
                     },
