@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 自動化股票記帳
-description: 【全自動股票管理表】只需做好交易紀錄，其餘的都幫你搞定～✨「懶到極致」的股票管理表，打開試算表即自動更新股價和各種損益圖表，享受多種自動化功能，輕鬆管理股票。
+description: 自動化股票管理excel(Google試算表)，免下載，複製即可使用。免費試用、簡單股票記帳、股票管理表、自動更新股價、股票儀表版
 #heroImage: /logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
