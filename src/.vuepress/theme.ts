@@ -88,7 +88,7 @@ export default hopeTheme({
 
         sitemap: {
             excludeUrls: [
-                '/demo/*'
+                "/demo/"
             ],
         },
 
