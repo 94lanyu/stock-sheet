@@ -1,14 +1,13 @@
 import {hopeTheme} from "vuepress-theme-hope";
-import {format} from "date-fns";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-    hostname: "https://94lanyu.github.io/StockSheet/",
+    hostname: "https://94lanyu.github.io/",
 
     author: {
         name: "懶魚",
-        url: "https://mrhope.site",
+        url: "",
     },
 
     iconAssets: "fontawesome-with-brands",
@@ -70,10 +69,6 @@ export default hopeTheme({
             customHead: head => {
                 head.push(
                     [
-                        "meta",
-                        { name: "google-site-verification", content: "AdvLMReW9RFoWDOXEAm_koqL82b1ZwwKxlgrhaQtRnQ" },
-                    ],
-                    [
                         "script",
                         {async: true, src: "https://www.googletagmanager.com/gtag/js?id=G-RY2H2KJXY8"},
                     ],
@@ -101,12 +96,6 @@ export default hopeTheme({
                 "/demo/page.html",
                 "/demo/slides.html"
             ],
-            modifyTimeGetter: (page) => {
-                if (page.data.git.updatedTime) {
-                    return format(new Date(page.data.git.updatedTime), "yyyy-MM-dd");
-                }
-                return format(new Date(), "yyyy-MM-dd"); // 如果沒有更新時間，使用當前時間
-            },
         },
 
         // All features are enabled for demo, only preserve features you need here
