@@ -70,6 +70,10 @@ export default hopeTheme({
             customHead: head => {
                 head.push(
                     [
+                        "meta",
+                        { name: "google-site-verification", content: "AdvLMReW9RFoWDOXEAm_koqL82b1ZwwKxlgrhaQtRnQ" },
+                    ],
+                    [
                         "script",
                         {async: true, src: "https://www.googletagmanager.com/gtag/js?id=G-RY2H2KJXY8"},
                     ],
