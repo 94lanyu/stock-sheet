@@ -3,11 +3,11 @@ home: true
 icon: home
 title: 全自動股票管理表
 description: 自動化股票管理excel(Google試算表)，免下載，複製即可使用。免費試用、簡單股票記帳、股票管理表、自動更新股價、股票儀表版
-#heroImage: /logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
     background-attachment: fixed
+heroImage: /images/台股訂閱版/儀表板.gif
 heroText: 全自動股票管理表
 heroFullScreen: true
 tagline: 只需做好交易紀錄，其餘的都幫你搞定～✨
