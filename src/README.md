@@ -1,8 +1,8 @@
 ---
 home: true
 icon: home
-title: 全自動股票管理表
-description: 自動化股票管理excel(Google試算表)，免下載，複製即可使用。免費試用、簡單股票記帳、股票管理表、自動更新股價、股票儀表版
+title: 全自動股票管理表 - 股票記帳、投資組合管理與自動更新
+description: 自動股票管理表，輕鬆記錄股票交易、管理投資組合、即時股價更新，提供免費試用。讓你的投資管理變得更簡單，立即體驗！
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
@@ -12,15 +12,15 @@ heroText: 全自動股票管理表
 heroFullScreen: true
 tagline: 只需做好交易紀錄，其餘的都幫你搞定～✨
 actions:
-    -   text: 免費試用 🧭
+    -   text: 🧭 免費試用
         link: https://forms.gle/RsfJdnReB1pzahQM6
         type: primary
-    -   text: 使用指南 💡
+    -   text: 💡 使用指南
         link: /guide/
         type: secondary
-    -   text: 試算表預覽 🪀
+    -   text: 🪀 試算表預覽
         link: https://docs.google.com/spreadsheets/d/1oZ4oUaYMRnmP2WEBYk84qAB6HXxxgZ4Qripa3J69Aa0/edit?usp=sharing
-    -   text: 訂閱 🛍️
+    -   text: 🛍️ 訂閱
         link: https://stockportfolio.cashier.ecpay.com.tw/product/000000000402451
 
 
