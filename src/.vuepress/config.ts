@@ -2,7 +2,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/StockSheet/",
+  // base: "/StockSheet/",
 
   lang: "zh-TW",
   title: "全自動股票管理表",

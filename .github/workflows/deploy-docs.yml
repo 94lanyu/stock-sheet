@@ -52,7 +52,7 @@ jobs:
               with:
                   # 部署到 gh-pages 分支
                   target_branch: main
-                  repo: 94lanyu/StockSheet
+                  repo: 94lanyu/94lanyu.github.io
                   # 部署目錄為 VuePress 的默認輸出目錄
                   build_dir: src/.vuepress/dist
               env:
