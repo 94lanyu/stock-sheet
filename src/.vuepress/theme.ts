@@ -3,7 +3,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-    hostname: "https://94lanyu.github.io",
+    hostname: "https://stock-sheet.pages.dev",
 
     author: {
         name: "懶魚",
